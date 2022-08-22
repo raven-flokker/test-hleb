@@ -15,6 +15,12 @@ class ComposerStaticInitfe39168b4204ebaaaa62022b157ca6c8
         array (
             'Hleb\\' => 5,
         ),
+        'D' => 
+        array (
+            'Datto\\JsonRpc\\Http\\Examples\\' => 28,
+            'Datto\\JsonRpc\\Http\\' => 19,
+            'Datto\\JsonRpc\\' => 14,
+        ),
         'A' => 
         array (
             'App\\' => 4,
@@ -30,6 +36,18 @@ class ComposerStaticInitfe39168b4204ebaaaa62022b157ca6c8
         array (
             0 => __DIR__ . '/..' . '/phphleb/framework',
         ),
+        'Datto\\JsonRpc\\Http\\Examples\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/datto/json-rpc-http/examples/src',
+        ),
+        'Datto\\JsonRpc\\Http\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/datto/json-rpc-http/src',
+        ),
+        'Datto\\JsonRpc\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/datto/json-rpc/src',
+        ),
         'App\\' => 
         array (
             0 => __DIR__ . '/../..' . '/app',
@@ -40,12 +58,32 @@ class ComposerStaticInitfe39168b4204ebaaaa62022b157ca6c8
         'App\\Commands\\DefaultTask' => __DIR__ . '/../..' . '/app/Commands/DefaultTask.php',
         'App\\Commands\\RotateLogsTask' => __DIR__ . '/../..' . '/app/Commands/RotateLogsTask.php',
         'App\\Controllers\\DefaultController' => __DIR__ . '/../..' . '/app/Controllers/DefaultController.php',
+        'App\\Controllers\\JsonRpc\\src\\Api' => __DIR__ . '/../..' . '/app/Controllers/JsonRpc/src/Api.php',
+        'App\\Controllers\\JsonRpc\\src\\Library\\Date' => __DIR__ . '/../..' . '/app/Controllers/JsonRpc/src/Library/Date.php',
         'App\\Middleware\\After\\DefaultMiddlewareAfter' => __DIR__ . '/../..' . '/app/Middleware/After/DefaultMiddlewareAfter.php',
         'App\\Middleware\\Before\\DefaultMiddlewareBefore' => __DIR__ . '/../..' . '/app/Middleware/Before/DefaultMiddlewareBefore.php',
         'App\\Models\\DefaultModel' => __DIR__ . '/../..' . '/app/Models/DefaultModel.php',
         'App\\Optional\\MainConnector' => __DIR__ . '/../..' . '/app/Optional/MainConnector.php',
         'Composer\\InstalledVersions' => __DIR__ . '/..' . '/composer/InstalledVersions.php',
         'DB' => __DIR__ . '/../..' . '/database/DB.php',
+        'Datto\\JsonRpc\\Client' => __DIR__ . '/..' . '/datto/json-rpc/src/Client.php',
+        'Datto\\JsonRpc\\Evaluator' => __DIR__ . '/..' . '/datto/json-rpc/src/Evaluator.php',
+        'Datto\\JsonRpc\\Exceptions\\ApplicationException' => __DIR__ . '/..' . '/datto/json-rpc/src/Exceptions/ApplicationException.php',
+        'Datto\\JsonRpc\\Exceptions\\ArgumentException' => __DIR__ . '/..' . '/datto/json-rpc/src/Exceptions/ArgumentException.php',
+        'Datto\\JsonRpc\\Exceptions\\Exception' => __DIR__ . '/..' . '/datto/json-rpc/src/Exceptions/Exception.php',
+        'Datto\\JsonRpc\\Exceptions\\ImplementationException' => __DIR__ . '/..' . '/datto/json-rpc/src/Exceptions/ImplementationException.php',
+        'Datto\\JsonRpc\\Exceptions\\MethodException' => __DIR__ . '/..' . '/datto/json-rpc/src/Exceptions/MethodException.php',
+        'Datto\\JsonRpc\\Http\\Client' => __DIR__ . '/..' . '/datto/json-rpc-http/src/Client.php',
+        'Datto\\JsonRpc\\Http\\Examples\\AuthenticatedServer' => __DIR__ . '/..' . '/datto/json-rpc-http/examples/src/AuthenticatedServer.php',
+        'Datto\\JsonRpc\\Http\\Examples\\Evaluator' => __DIR__ . '/..' . '/datto/json-rpc-http/examples/src/Evaluator.php',
+        'Datto\\JsonRpc\\Http\\Examples\\Math' => __DIR__ . '/..' . '/datto/json-rpc-http/examples/src/Math.php',
+        'Datto\\JsonRpc\\Http\\Exceptions\\HttpException' => __DIR__ . '/..' . '/datto/json-rpc-http/src/Exceptions/HttpException.php',
+        'Datto\\JsonRpc\\Http\\HttpResponse' => __DIR__ . '/..' . '/datto/json-rpc-http/src/HttpResponse.php',
+        'Datto\\JsonRpc\\Http\\Server' => __DIR__ . '/..' . '/datto/json-rpc-http/src/Server.php',
+        'Datto\\JsonRpc\\Responses\\ErrorResponse' => __DIR__ . '/..' . '/datto/json-rpc/src/Responses/ErrorResponse.php',
+        'Datto\\JsonRpc\\Responses\\Response' => __DIR__ . '/..' . '/datto/json-rpc/src/Responses/Response.php',
+        'Datto\\JsonRpc\\Responses\\ResultResponse' => __DIR__ . '/..' . '/datto/json-rpc/src/Responses/ResultResponse.php',
+        'Datto\\JsonRpc\\Server' => __DIR__ . '/..' . '/datto/json-rpc/src/Server.php',
         'DeterminantStaticUncreated' => __DIR__ . '/..' . '/phphleb/framework/Main/Insert/DeterminantStaticUncreated.php',
         'Hleb\\Constructor\\Cache\\CacheRoutes' => __DIR__ . '/..' . '/phphleb/framework/Constructor/Cache/CacheRoutes.php',
         'Hleb\\Constructor\\Cache\\CachedTemplate' => __DIR__ . '/..' . '/phphleb/framework/Constructor/Cache/CachedTemplate.php',

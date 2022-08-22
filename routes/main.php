@@ -11,4 +11,4 @@
  */
 
 Route::get("/", view("default"));
-
+Route::get("/http", view("defaultHttp"));

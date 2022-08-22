@@ -23,7 +23,9 @@
     "ext-json": "*",
     "ext-pdo": "*",
     "phphleb/framework": ">=1.6.64",
-    "phphleb/debugpan": "1.*"
+    "phphleb/debugpan": "1.*",
+    "datto/json-rpc": "^6.1",
+    "datto/json-rpc-http": "^5.0"
   },
   "autoload": {
     "classmap": [

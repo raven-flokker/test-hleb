@@ -8,5 +8,8 @@ $baseDir = dirname($vendorDir);
 return array(
     'Phphleb\\' => array($vendorDir . '/phphleb'),
     'Hleb\\' => array($vendorDir . '/phphleb/framework'),
+    'Datto\\JsonRpc\\Http\\Examples\\' => array($vendorDir . '/datto/json-rpc-http/examples/src'),
+    'Datto\\JsonRpc\\Http\\' => array($vendorDir . '/datto/json-rpc-http/src'),
+    'Datto\\JsonRpc\\' => array($vendorDir . '/datto/json-rpc/src'),
     'App\\' => array($baseDir . '/app'),
 );
