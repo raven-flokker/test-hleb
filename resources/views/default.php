@@ -15,7 +15,7 @@
     $message = $client->encode();
 
     $server = new Server(new Api());
-    // Я не совсем понял, это именно то что просили, сделать или нужно было сделать
+    // Я не совсем понял, это именно то что просили сделать или нужно было сделать
     $reply = $server->reply($message);
     echo " reply: {$reply}\n";
 
